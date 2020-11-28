@@ -1,0 +1,296 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Century Gothic;
+}
+body{
+    background-image:url(https://img.freepik.com/free-vector/technology-background-with-earth-circuit-diagram_1017-19385.jpg?size=626&ext=jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/*	HOME DESIGN	*/
+header{
+	background-image:url(https://img.freepik.com/free-vector/technology-background-with-earth-circuit-diagram_1017-19385.jpg?size=626&ext=jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	list-style-type: none;
+	float:right;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color:blur;
+	font-weight: bold;
+	color: white; 
+}
+ul li.active a{
+	background-color:black;
+	color: white;
+	text-decoration: underline;
+}
+.title{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title{
+	color: white;
+	font-size: 22px;
+	font-family: arial;
+}
+.descript{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.descript{
+	color: white;
+	font-size: 18px;
+
+}
+.button{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease
+}
+.btn:hover{
+	background-color:black;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+/*	LOG-IN DESIGN	*/
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    
+    background-color:whitesmoke;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    font-family: "Raleway", sans-serif;
+    outline: 1;
+    background: white;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: white;
+    width: 50%;
+    border: 0;
+    padding: 10px;
+    color: purple;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:active{
+    background: black;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: black;
+    font-size: 15px;
+}
+
+.form .message a{
+    color:black;
+    text-decoration: none;
+}
+
+.form .register-form{
+    display: none;
+}
+
+.logo{
+	width: 170px;
+	height: 110px;
+    margin-left: 2px;
+    padding: 10px;
+	position: relative;
+}
+
+/* 	PUBLIC CHAT DESIGN */
+header{
+    display: flex;
+    flex-direction: column;
+    max-height: 130vh;
+    background-image:url(https://cdn.hipwallpaper.com/i/81/58/SQBvfW.jpg);
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+}
+.chat{
+	display:block;
+	bottom: 1000px;
+	position:relative;
+}
+.members-count{
+	margin: 20;
+	margin-top: 10%;
+    border: 1px solid #e4e4e4;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.members-list,
+.messages {
+	margin: 20;
+    border: 1px solid #e4e4e4;
+    padding: 15px;
+    margin-bottom: 15px;
+    }
+    .messages {
+      flex-shrink: 1;
+      overflow: auto;
+    }
+    .message {
+      padding: 5px 0;
+      color: white;
+    }
+    .message .member {
+      display: inline-block;
+    }
+    .member {
+      padding-right: 10px;
+      position: relative;
+    }
+    .message-form {
+    margin: 20;
+      display: flex;
+      flex-shrink: 0;
+    }
+    .message-form__input {
+      flex-grow: 1;
+      border: 1px solid #dfdfdf;
+      padding: 10px 15px;
+      font-size: 20px;
+    }
+    .message-form__button {
+      margin: 10px;
+  }
+
+/* For Hack.html */
+.row{
+	display:block;
+	bottom: 800px;
+	position:relative;
+	margin:50px;
+}
+
+.calendar{
+	left:50px;
+}
+
+
+
+
+  /* For Weather widget */
+
+.input{
+  text-align: center;
+  display: inline;
+  position: absolute;
+  left:800px;
+  bottom:700px;
+}
+
+input[type="submit"]{
+  display:inline;
+  padding: 5px 20px;
+  background: #e7e7e7;
+  border: solid black;
+  border-radius: 1px;
+  font-color: white;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 15px;
+}
+
+.input input[type="text"]{
+  display:inline;
+  width: 60%;
+  height: 30%;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.card{
+display:inline-block;
+position:relative;
+  width: 200px;
+  background: #e7e7e7;
+  height: 300px;
+  margin: 30px;
+  border-radius: 2px;
+  left:800px;
+  bottom: 350px;
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+  margin:40px 0;
+  font-size:20px;
+}

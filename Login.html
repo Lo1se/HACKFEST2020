@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>Login and Registration</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Project for Hack-a-ton">
+      <meta name="keywords" content="NetClipse ">
+      <meta name="author" content="Team NetClipse">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexdesign.css">
+    
+</head>
+<body>
+            <div class="main">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li class="active"><a href="Login.html">LOGIN</a></li>
+                <li><a href="https://news.abs-cbn.com/live">NEWS</a></li>
+                <li><a href="hack.html">TO DO</a></li>
+                <li><a href="pchat.html">PUBLIC CHAT</a></li>
+                
+            </ul>
+        </div>
+        <div class="title">
+            <h1>REGISTRATION</h1>
+        </div>
+    <div class="login-page">
+    <div class="form">
+        <img src="https://image.flaticon.com/icons/png/512/958/958359.png" class="logo" align="center">
+        <form class="register-form">
+            <input type="text" placeholder="name"/>
+            <input type="text" placeholder="password"/>
+            <input type="text" placeholder="email id"/>
+            <button>Create</button>
+            <p class="message">Already registered?<a href="hack.html"> Log in</a></p>
+        </form>
+        
+        <form class="login-form">
+            <input type="text" placeholder="user name"/>
+            <input type="text" placeholder="password"/>
+            <button><a href="hack.html">login</button></a>
+            <p class="message">Not Registered?<a href="#"> Sign up here!</a></p>
+            
+        </form>
+    </div>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'>
+    </script>
+
+    <script>
+    $('.message a').click(function(){
+    $('form').animate({height:"toggle", opacity:"toggle"}, "slow");
+    });
+    </script>
+</body>
+</html>
